@@ -16,6 +16,12 @@ First install the PlatformIO IDE (https://platformio.org/) on the Visual Studio 
 ## Build/Upload
 
 PlatformIO provides the build/upload button, just use it !  
-For the upload, it will automatically detect the port where your board is located.
-
+For the upload, it will automatically detect the port where your board is located.  
 Done !
+
+# About the license
+
+The license I am using allows many things, as commercial usage.  
+Just take in consideration that I don't very like the fact that commercial usage is allowed.  
+Please consider that I am giving to you this project for free and I am not making any benefit with it, so using it to sell it isn't very nice (only if you do major edits to the project).  
+Thanks you !
