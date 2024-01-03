@@ -9,16 +9,13 @@ First install the PlatformIO IDE (https://platformio.org/) on the Visual Studio 
 
 ## Project Configuration
 
-First download the folder with the name of the board you are using (Arduino/ESP32).
-
-Then, on Visual Studio Code, go to the PlatformIO tab, then Open Project>Your folder.
-
-Change the pins variables (located in the variables.hpp file on the root of the project), if you are not using the pins I am using.
+ - First download the folder **with the name of the board you are using (Arduino or ESP32)**.  
+ - Then, on Visual Studio Code, go to the PlatformIO tab, then Open Project>Your folder.  
+ - **Change the pins variables (located in the variables.hpp file on the root of the project), if you are not using the pins I am using.**
 
 ## Build/Upload
 
-PlatformIO provides the build/upload button, just use it !
-
+PlatformIO provides the build/upload button, just use it !  
 For the upload, it will automatically detect the port where your board is located.
 
 Done !
