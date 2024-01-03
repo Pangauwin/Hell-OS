@@ -15,7 +15,7 @@ Then, on Visual Studio Code, go to the PlatformIO tab, then Open Project>Your fo
 
 Change the pins variables (located in the variables.hpp file on the root of the project), if you are not using the pins I am using.
 
-## Build/Uploading
+## Build/Upload
 
 PlatformIO provides the build/upload button, just use it !
 
