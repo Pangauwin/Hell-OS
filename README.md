@@ -18,5 +18,7 @@ Change the pins variables (located in the variables.hpp file on the root of the 
 ## Build/Uploading
 
 PlatformIO provides the build/upload button, just use it !
+
 For the upload, it will automatically detect the port where your board is located.
+
 Done !
