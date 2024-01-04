@@ -14,7 +14,7 @@ For this project, I am using (for the moment the only version available is Ardui
  - 7 220 Ω (Ohm) Resistors
  - 1 Piezo Buzzer
  - 5 Buttons
- - 33 Jumper Wires
+ - (A lot of) Jumper Wires
 
 All of these components can be found on the Arduino Starter Kit (sold by the official Arduino company).
 
@@ -27,6 +27,19 @@ I build the circuit like that, but feel free to build your one as you want.
 The pins on this circuit are those I use on my project files : 
  - LCD (RS) : 8
  - LCD (E) : 9
+ - LCD (DB4) : 10
+ - LCD (DB5) : 11
+ - LCD (DB6) : 12
+ - LCD (DB7) : 13
+ - Buzzer : 6
+ - Down Button : 7
+ - Right Button : 5
+ - Up Button : 4
+ - Middle Button : 3
+ - Left Button : 2
+
+For the ground/power connection, just check out the upper picture.  
+If you choose to change those pins, you must register the changes in the variables.hpp file (located on the root of the project) in order to make this project work.
 
 ## Code Execution Instructions
 
