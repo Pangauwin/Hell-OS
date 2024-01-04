@@ -1,27 +1,47 @@
 # Light-OS
 Micro OS compatible for Arduino and ESP-32 (both in development, but I will definitely switch on ESP32), the goal is to create a mini video game console with these components and their restrictions.
 
-# Installation Instructions
+# Project Building
 
-## Platform
+## Building the console
+
+### Components
+
+For this project, I am using (for the moment the only version available is Arduino, so) :  
+ - 1 Arduino Uno R3
+ - 1 medium Breadboard
+ - 1 LCD Screen (16 x 2)
+ - 7 220 Ω (Ohm) Resistors
+ - 1 Piezo Buzzer
+ - 5 Buttons
+ - 33 Jumper Wires
+
+All of these components can be found on the Arduino Starter Kit (sold by the official Arduino company).
+
+### Circuits
+
+I build the circuit like that, but feel free to build your one as you want.
+
+![image](https://github.com/Pangauwin/Light-OS/assets/65062595/1c021fc7-d869-4102-af49-6b6e5d422bc2)
+
+The pins on this circuit are those I use on my project files : 
+ - LCD (RS) : 8
+ - LCD (E) : 9
+
+## Code Execution Instructions
+
+### Platform
 
 First install the PlatformIO IDE (https://platformio.org/) on the Visual Studio Code editor (https://code.visualstudio.com/). This IDE provides the necessary tools to build this project on Windows, MacOS, and Linux.
 
-## Project Configuration
+### Project Configuration
 
  - First download the folder **with the name of the board you are using (Arduino or ESP32)**.  
  - Then, on Visual Studio Code, go to the PlatformIO tab, then Open Project>Your folder.  
  - **Change the pins variables (located in the variables.hpp file on the root of the project), if you are not using the pins I am using.**
 
-## Build/Upload
+### Build/Upload
 
 PlatformIO provides the build/upload button, just use it !  
 For the upload, it will automatically detect the port where your board is located.  
 Done !
-
-# About the license
-
-The license I am using allows many things, as commercial usage.  
-Just take in consideration that I don't very like the fact that commercial usage is allowed.  
-Please consider that I am giving to you this project for free and I am not making any benefit with it, so using it to sell it isn't very nice (only if you do major edits to the project).  
-Thanks you !
