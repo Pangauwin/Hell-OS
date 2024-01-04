@@ -3,9 +3,11 @@ Micro OS compatible for Arduino and ESP-32 (both in development, but I will defi
 
 # Project Building
 
-## Building the console
+## Arduino & LCD 16 x 2 screen
 
-### Components
+### Building the console
+
+#### Components
 
 For this project, I am using (for the moment the only version available is Arduino, so) :  
  - 1 Arduino Uno R3
@@ -16,9 +18,9 @@ For this project, I am using (for the moment the only version available is Ardui
  - 5 Buttons
  - (A lot of) Jumper Wires
 
-All of these components can be found on the Arduino Starter Kit (sold by the official Arduino company).
+All of these components can be found on the Arduino Starter Kit (https://store.arduino.cc/products/arduino-starter-kit-multi-language).
 
-### Circuits
+#### Circuits
 
 I build the circuit like that, but feel free to build your one as you want.
 
@@ -39,7 +41,8 @@ The pins on this circuit are those I use on my project files :
  - Left Button : 2
 
 For the ground/power connection, just check out the upper picture.  
-If you choose to change those pins, you must register the changes in the variables.hpp file (located on the root of the project) in order to make this project work.
+If you choose to change those pins, you must register the changes in the variables.hpp file (located on the root of the project) in order to make the code work.  
+Just check out the Code Execution Instruction paragraph to finish the setup.
 
 ## Code Execution Instructions
 
@@ -49,7 +52,7 @@ First install the PlatformIO IDE (https://platformio.org/) on the Visual Studio 
 
 ### Project Configuration
 
- - First download the folder **with the name of the board you are using (Arduino or ESP32)**.  
+ - First download the folder **with the name of the boardand the screen you are using (Arduino or ESP32 / LCD 16x2 or TFT)**.  
  - Then, on Visual Studio Code, go to the PlatformIO tab, then Open Project>Your folder.  
  - **Change the pins variables (located in the variables.hpp file on the root of the project), if you are not using the pins I am using.**
 
